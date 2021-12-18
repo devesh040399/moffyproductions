@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+.custom-heading-font {
+	text-transform: uppercase;
+	letter-spacing: 0.15rem;
+	font-family: "Inter", sans-serif;
+	font-weight: 300;
+}
+
+.add-text-gradient {
+	/* background: linear-gradient(
+		118deg,
+		rgba(250, 247, 63, 1) 0%,
+		rgba(127, 129, 206, 1) 30%,
+		rgba(164, 135, 185, 1) 49%,
+		rgba(215, 122, 200, 1) 67%,
+		rgba(255, 74, 98, 1) 87%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
+	color: 
+	#e69670;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+}
+
+.change-font {
+	font-family: "Inter", sans-serif;
+	font-weight: 300;
+}
+
+@media (max-width: 1024px) {
+	.tt-logo img {
+		max-width: unset;
+		max-height: unset;
+	}
+}
+
+.tt-logo img {
+	max-width: unset;
+	max-height: unset;
+}
+
+.pt-events {
+	pointer-events: none;
+}
